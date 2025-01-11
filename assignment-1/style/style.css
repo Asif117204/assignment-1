@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Fira Sans", serif;
+     font-style: normal;
+     font-size: 14px;
+     font-weight: 400;
+
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    padding-left: 150px;
+
+    h1 {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .btn{
+    border-radius: 5px;
+    border:1px solid #006A50;
+    color:#006A50;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: transparent;
+    text-transform: capitalize;
+}
+}
+
+
+.first{
+    width:100vw;
+    height: 600px;
+    display: grid;
+    place-items: center;
+
+    .container {
+        width:80%;
+        height: 560px;
+        background-color: #C6E4D6;
+        border-radius: 10px;
+        padding: 60px 10px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+
+        .left {
+            width: 55%;
+            height: 100%;
+            padding-top: 90px ;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            .title {
+               font-weight: 700;
+               font-size: 20px;
+               text-transform: capitalize;
+               color: #0e0e0e7d;
+            }
+            .txt {
+                padding-top: 10px;
+                font-weight: 700;
+                font-size: 53px;
+                color:#0E0E0E;
+            }
+
+            .btn {
+                cursor: pointer;
+                margin-top:20px;
+                 border-radius: 5px;
+                border:1px solid #006A50;
+                background-color:#006A50;
+                color: #fff;
+                font-weight: 500;
+                padding: 10px 20px;
+                font-size: 15px;
+                 text-transform: capitalize;
+            }
+        }
+        .right {
+            width: 40%;
+            height: 100%;
+            padding: 30px 0;
+            padding-right: 50px;
+            
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+
+        
+        
+    }
+}
+
+.vision {
+    width: 100%;
+    height: auto;
+    padding: 0 80px ;
+    padding-left: 150px;
+    margin-top: 30px;
+
+    .title {
+        font-weight: 700;
+        text-transform: capitalize;
+        color:#0E0E0E;
+        font-size: 35px;
+    }
+    .txt {
+        font-size: 500;
+        color: #0e0e0e9d;
+    }
+}
+
+
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-1{
+    border-radius: 5px;
+    background-color: #5490F5;
+}
+.skill-2{
+    border-radius: 5px;
+    background-color: #C6E4D6;
+}
+.skill-3{
+    border-radius: 5px;
+    background-color: #F7EBCF;
+}
+.skill-1 .one{
+    background-color: #5490F5;
+    border-radius: 5px;
+}
+.skill-2 .two{
+    background-color: #09A15C;
+    border-radius: 5px;
+}
+.skill-3 .three{
+    background-color: #FFC239;
+    border-radius: 5px;
+}
+.satelite{
+    display: flex;
+    gap: 20px;
+}
+.culumn .resent{
+    border-radius: 5px;
+    background-color: #006A50;
+}
+.satelite-2{
+    display: flex;
+}
+.resent-2{
+    background-color:#006A50 ;
+    border-radius: 5px;
+}
+.donate{
+    display: flex;
+    justify-content: space-around;
+}
+.donate .donate-1{
+    height: 128px;
+    width: 240px;
+    border-radius: 5px;
+    padding: 40;
+    background-color: #FFFFFF;
+}
+.donate .donate-2{
+    height: 128px;
+    width: 240px;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: #C6E4D6;
+}
+.donate .donate-3{
+    height: 128px;
+    width: 240px;
+    border-radius: 5px;
+    padding: 40;
+    background-color: #FFFFFF;
+}
+.donate .donate-4{
+    height: 128px;
+    width: 240px;
+    border-radius: 5px;
+    padding: 40;
+    background-color: #FFFFFF;
+}
+.amar{
+    padding: 20px 40px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 4000px;
+    height: 64px;
+}
+.button{
+    border-radius: 5px;
+    background-color: #006A50;
+}
+.subcribe{
+    height: 395px;
+    width: 1032px;
+    border-radius: 10px;
+    background-color: #C6E4D6;
+}
+.center{
+    text-align: center;
+}
+.center-1{
+    text-align: center;
+}
+.subcribe-1{
+    display: flex;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+}
+.footer-1{
+    text-align: center;
+}
